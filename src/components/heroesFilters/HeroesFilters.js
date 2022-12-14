@@ -15,13 +15,12 @@ import { useDispatch, useSelector} from "react-redux";
 
 const HeroesFilters = () => {
     const [filters, setFilters]=useState([]);
-    const {filter}=useSelector(state=>state);
+    const {filter}=useSelector(state=>state.filters);
     const {request}=useHttp();
     const dispatch=useDispatch();
-    console.log(filter);
     useEffect(()=>{ 
         request("http://localhost:3001/filters")
-        .then(data=>{setFilters(data); console.log(data)});
+        .then(data=>{setFilters(data)});
         // eslint-disable-next-line
     },[])  
     const setFilter=(id)=>{

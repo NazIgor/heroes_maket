@@ -19,10 +19,10 @@
       "element": 3
     },
     {
-      "name": "Igor",
-      "description": "dsfasdfa",
-      "element": "4",
-      "id": "a4ad3902-7375-4313-8d1d-f9451db40638"
+      "name": "Слизняк",
+      "description": "Земляной червь",
+      "element": "5",
+      "id": "b7129293-9759-488a-acc6-eb5fa993b6f3"
     }
   ],
   "filters": [
@@ -42,19 +42,19 @@
       "id": 3,
       "title": "Вода",
       "name": "water",
-      "class":"btn btn-primary"
+      "class": "btn btn-primary"
     },
     {
       "id": 4,
       "title": "Ветер",
       "name": "wind",
-      "class":"btn btn-success"
+      "class": "btn btn-success"
     },
     {
       "id": 5,
       "title": "Земля",
       "name": "earth",
-      "class":"btn btn-secondary"
+      "class": "btn btn-secondary"
     }
   ]
 }
